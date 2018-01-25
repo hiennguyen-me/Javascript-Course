@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New World - Sai Gon Hotel</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all">
+</head>
+<body>
+	<header>
+		<div class="site-header">
+			<div class="site-branding">
+				<a href="#"><img id="logo" data-type="logo" src="images/logo.png"></a>
+			</div>
+			<a href="#main-menu" id="toggle-menu"><span></span></a>
+			
+			<nav  class="menu-nav" id="main-menu">
+				<ul id="menu-nav">
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+					  	<a onclick="myFunction()" class="dropbtn">Your Stay</a>
+					  	<ul id="myDropdown" class="dropdown-content">
+						    <li><a href="#">Experiences</a></li>
+						    <li><a href="#">Dining</a></li>
+						    <li><a href="#">Amenities</a></li>
+						</ul>
+					</li>      
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a class="reserve" href="#">Make a Reservation</a></li>
+                </ul>	
+			</nav>
+		</div>
+	</header>
+	<div class="container">
+		<div class="slider animate-right">
+			<img data-type="slider" class="mySlides animate-right" src="images/slider/slider1-800.jpg">
+			<img data-type="slider" class="mySlides animate-right" src="images/slider/slider2-800.jpg">
+			<img data-type="slider" class="mySlides animate-right" src="images/slider/slider3-800.jpg">
+			<img data-type="slider" class="mySlides animate-right" src="images/slider/slider4-800.jpg">
+			<img data-type="slider"  class="mySlides animate-right" src="images/slider/slider5-800.jpg">
+
+			<div style="width:100%">
+			    <div id="slider-left" onclick="plusDivs(-1)">&#10094;</div>
+			    <div id="slider-right" onclick="plusDivs(1)">&#10095;</div>
+			    <div id="span">
+				    <span class="circle-click" onclick="currentDiv(1)"></span>
+				    <span class="circle-click" onclick="currentDiv(2)"></span>
+				    <span class="circle-click" onclick="currentDiv(3)"></span>
+				    <span class="circle-click" onclick="currentDiv(4)"></span>
+				    <span class="circle-click" onclick="currentDiv(5)"></span>
+			    </div>
+		  	</div>
+		</div>
+
+		<div id="intro">
+			<h2>Welcome to New World Sai Gon Hotel</h2>
+			<p class="two-column">New World Sai Gon Hotel is an awesome new hotel on the moon. Yes, on the friggin <strong>moon</strong>. Always wanted to see what the earth looks like from afar? Well, now you can. While taking part in a low-G yoga class or exploring the landing sites of the original Apollo missions. To call a stay at Moonwalk Manor a unique experience would be the understatement of the century. Your stay at New World will change your perception of reality and make you a whole new person.<br>New World Sai Gon Hotel is an awesome new hotel on the moon. Yes, on the friggin <strong>moon</strong>. Always wanted to see what the earth looks like from afar? Well, now you can. While taking part in a low-G yoga class or exploring the landing sites of the original Apollo missions. To call a stay at Moonwalk Manor a unique experience would be the understatement of the century. Your stay at New World will change your perception of reality and make you a whole new person.</p>
+			
+		</div>
+		<div class="book">
+			<p><a href="">Book Now!</a></p>
+		</div>
+		<div class="categories">
+			<h2>Categories Hotel</h2>
+			<div class="three-col">
+				<div class="category">
+					<a href="#"><img data-type="cate" src="images/category/cat1-800.jpg"></a>
+					<div class="cat-desc">Yes, you're on the moon, but that doesn't mean gravity won't do its work on your body. After a long day of excitement, bunk down in our luxurious beds to recharge for the next day.</div>
+					<div class="learn-more" >
+						<a href="" id="show1">Learn More</a>
+					</div>
+				</div>
+				<div class="category">
+					<a href="#"><img data-type="cate" src="images/category/cat2-800.jpg"></a>
+					<div class="cat-desc">Yes, you're on the moon, but that doesn't mean gravity won't do its work on your body. After a long day of excitement, bunk down in our luxurious beds to recharge for the next day.</div>
+					<div class="learn-more">
+						<a href=""  id="show2">Learn More</a>
+					</div>
+				</div>
+				<div class="category">
+					<a href="#"><img data-type="cate" src="images/category/cat3-800.jpg"></a>
+					<div class="cat-desc">Yes, you're on the moon, but that doesn't mean gravity won't do its work on your body. After a long day of excitement, bunk down in our luxurious beds to recharge for the next day.</div>
+					<div class="learn-more" >
+						<a href="" id="show3">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div id="about">
+			<p>Phone: +84 28 3822 8888</p>
+			<p>Address: 76 Le Lai Street, District 1, Ho Chi Minh City, Vietnam</p>
+		</div>
+		<div id="contact">
+			<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			
+		</div>
+		<div id="copy-right">
+			<p> &copy; 2017 New World Hotels and Resorts. All right reserved </p>
+		</div>
+		
+	</footer>
+
+	
+
+</body>
+
+<script type="text/javascript" src="scripts/scripts.js"></script>
+</html>
